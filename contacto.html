@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" type="image/png" href="imagenes/loguete.png"> 
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="imagenes/loguete.png" ></div>
+
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="#" class="activo">Contacto</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="seccion-principal">
+        <div class="superponer">
+            <h1>Contacto</h1>
+        </div>
+    </section>
+
+    <main class="contenedor-contacto">
+        <div class="introduccion-contacto">
+            <h2>Estamos aquí para ayudarte a planear tu próxima aventura</h2>
+            <p class="destacado">¿Tienes preguntas o necesitas asesoramiento?<br>
+                Nuestro equipo está a tu disposición para resolver cualquier duda y ayudarte a diseñar el viaje de tus sueños.</p>
+        </div>
+        
+        <form class="formulario-contacto">
+            <div class="grupo-formulario">
+                <label for="name"></label>
+                <input type="text" id="name" required placeholder="Nombre">
+            </div>
+            
+            <div class="grupo-formulario">
+                <label for="email"></label>
+                <input type="email" id="email" required placeholder="Correo electrónico">
+            </div>
+            
+            <div class="grupo-formulario">
+                <label for="message"></label>
+                <textarea id="message" rows="6" required placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            
+            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="iconos-sociales">
+            <a href="https://wa.me" target="_blank"><img src="imagenes/whatshapp.png" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="imagenes/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="imagenes/facebookicon.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="imagenes/twittericon.png" alt="Twitter"></a>
+        </div>
+        
+        <p>Copyright © 2024 Solearis. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
