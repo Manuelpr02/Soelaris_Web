@@ -48,9 +48,8 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #ff8c42;
+    color: #e75b00; /* Color modificado para mejorar el contraste */
     font-weight: bold;
-   
 }
 
 nav ul li a:hover {
