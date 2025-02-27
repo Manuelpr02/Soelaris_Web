@@ -6,6 +6,9 @@ body {
     color: #333;
 }
 
+h1 {
+    overflow:hidden;
+}
 header {
     display: flex;
     justify-content: space-between;
