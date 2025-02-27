@@ -7,7 +7,13 @@ body {
 }
 
 h1 {
-    overflow:hidden;
+    color: #c04000; 
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 header {
     display: flex;
