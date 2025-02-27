@@ -48,12 +48,13 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff; 
-    background-color: #e75b00; 
+    color: #ffffff;  /* Blanco para más contraste */
+    background-color: #c04000; /* Un naranja más oscuro */
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
 }
+
 
 nav ul li a:hover {
     background-color: #ff8c42; 
